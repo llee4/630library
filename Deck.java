@@ -1,22 +1,52 @@
 package com.github.llee4;
 
+import java.util.ArrayList;
+
 public class Deck {
 	
-	private Deck[] deckOfCards = new Deck[48];
-	int players;
-	for (int i =0; int++; i+1<players){
-	}
+	private ArrayList<Integer> deck = new ArrayList<Integer>();
 	
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
+	public Deck() {
+	
+	for(int k = 0; k<48; k++) {
+		int i = k/4;
+		int j = k%4;
+		deck.add(10*i + j);}
+	}//close constructor
+	
+	public ArrayList getDeck() {
+		return deck;
 	}
-	public static void deal (Deck){
-		if(players > 2){
-			
-		}
-		
-	}
 
-}
+
+}//close Deck class
+
+class Players{
+	
+	private ArrayList<Integer> handcards = new ArrayList <Integer>();
+	private ArrayList<Integer> woncards = new ArrayList <Integer>();
+	private Deck newDeck = new Deck();
+	private ArrayList<Integer> currentDeck = newDeck.getDeck();
+	
+	public Players () {
+	for(int i = 0; i<10; i++) {
+	handcards.add(currentDeck.get(0));	
+	currentDeck.remove(0);
+	}//close for-loop	
+
+	}//close constructor
+
+	
+	
+}//close Players Class
+
+/*
+ * private ArrayList<Integer> tablecards = new ArrayList <Integer>();
+ * 	for(int i = 0; i<8; i++) {
+	tablecards.add(currentDeck.get(0));	
+	currentDeck.remove(0);
+	}//close for-loop	
+	
+ */ 
+ 
+
