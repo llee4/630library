@@ -21,32 +21,6 @@ public class Deck {
 
 }//close Deck class
 
-class Players{
-	
-	private ArrayList<Integer> handcards = new ArrayList <Integer>();
-	private ArrayList<Integer> woncards = new ArrayList <Integer>();
-	private Deck newDeck = new Deck();
-	private ArrayList<Integer> currentDeck = newDeck.getDeck();
-	
-	public Players () {
-	for(int i = 0; i<10; i++) {
-	handcards.add(currentDeck.get(0));	
-	currentDeck.remove(0);
-	}//close for-loop	
 
-	}//close constructor
-
-	
-	
-}//close Players Class
-
-/*
- * private ArrayList<Integer> tablecards = new ArrayList <Integer>();
- * 	for(int i = 0; i<8; i++) {
-	tablecards.add(currentDeck.get(0));	
-	currentDeck.remove(0);
-	}//close for-loop	
-	
- */ 
  
 
