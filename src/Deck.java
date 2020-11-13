@@ -2,10 +2,19 @@ package com.github.llee4;
 
 import java.util.ArrayList;
 
+/**
+ * Represents a Go-Stop card deck
+ */
 public class Deck {
-	
+
+	/**
+	 * Stores the cards as integers
+	 */
 	private ArrayList<Integer> deck = new ArrayList<Integer>();
 	
+	/**
+	 * Instantiates a Deck
+	 */
 	public Deck() {
 	
 	for(int k = 0; k<48; k++) {
@@ -14,7 +23,10 @@ public class Deck {
 		deck.add(10*i + j);}
 	}//close constructor
 	
-	public ArrayList getDeck() {
+	/**
+	 * Returns the ArrayList representing the deck
+	 */
+	public ArrayList<Integer> getDeck() {
 		return deck;
 	}
 
