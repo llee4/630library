@@ -1,2 +1,0 @@
-library/LibraryTest.java
- library.LibraryTest
