@@ -19,4 +19,4 @@ Do:
 `public class Deck{
 }//close Deck class`
 
-![Image of Heart](https://octodex.github.com/images/yaktocat.png)
+![Image of Heart](https://en.wikipedia.org/wiki/Heart_symbol)
