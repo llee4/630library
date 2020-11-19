@@ -6,5 +6,5 @@ Please make pull requests to the illustration branch, and not main, to be merged
 
 There are three ways that you can contribute:
 1. Look through the repositories Issues and choose one to resolve.  Feel free to comment with any questions.
-2. Edit IDEAS.md and add your own ideas/things you would like to see in this repository.  In the same vein, you can also open your own issue.
+2. Edit IDEAS.md and add your own ideas/things you would like to see in this repository.  In the same vein, you can also open your own issue, which is always welcomed (especially if it's based off of a note in IDEAS.md).
 3. Add documentation to any source!  This is extremely helpful.  
