@@ -18,7 +18,6 @@ Instead of:
 }`
 
 Do:
-
 `public class Deck{
 }//close Deck class`
 
