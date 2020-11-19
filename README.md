@@ -21,7 +21,13 @@ The program's jar file with all java source packaged in it can be found in direc
 Here's an easy way to use one of the features:
 
 Download lib.jar and move it to your Desktop, then, make a new directory within your desktop and add file uselib.java to that directory.  Uselib.java creates an arraylist (which you can modify) - the purpose of this activity is just to demonstrate that you can install lib.jar and run classes from it. 
+
 Go to the command line, cd into your directory, and run command:
+
 `javac -cp .:../lib.jar uselib.java`
+
+This should compile uselib.java using the written Shuffle class, which is in lib.jar.  
+
+Enjoy!
 
 
