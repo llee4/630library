@@ -2,6 +2,9 @@
 
 Contributions are welcomed in this repository!  Please familiarize yourself with the README document before you begin, and also with Hwatu and its rules, which can be found here: [https://www.instructables.com/How-to-Play-Go-Stop/](https://www.instructables.com/How-to-Play-Go-Stop/)
 
+If you just need a refresher, here's a quick summary of the above link:
+> There are four cards that represent each month of the year with an accompanying flower. The basic objective of the game is to match cards with their respective sets (i.e. match cards from January with another card from January). 
+
 Please make pull requests to the **illustration branch**, and not main, to be merged later at the developer's discretion.  *This way the main branch will always include installable code.* 
 
 There are three ways that you can contribute:
