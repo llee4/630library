@@ -12,8 +12,11 @@ There are three ways that you can contribute:
   
 Instead of:
 `public class Deck {
+
 }`
+
 Do:
 
 `public class Deck{
+
 }//close Deck class`
