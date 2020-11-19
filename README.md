@@ -16,5 +16,5 @@ Contributions are enthusiastically encouraged.  Please read CONTRIBUTIONS.MD (fo
 - Gameplay aid - see IDEAS.md for more information here:  [https://github.com/llee4/630library/blob/main/IDEAS.md](https://github.com/llee4/630library/blob/main/IDEAS.md)
 
 ## Installation:
-The program's jar file with all java source packaged in it can be found in directory 630library/lib/build/libs with the name lib.jar.  
+The program's jar file with all java source packaged in it can be found in directory 630library/lib with the name lib.jar.  
 
