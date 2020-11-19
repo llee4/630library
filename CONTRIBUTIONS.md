@@ -9,9 +9,11 @@ There are three ways that you can contribute:
 2. Edit IDEAS.md and add your own ideas/things you would like to see in this repository.  In the same vein, you can also open your own issue, which is always welcomed (especially if it's based off of a note in IDEAS.md).
 3. Add documentation to any source code!  This is extremely helpful.  
   When adding comments/documentation to java files, please use comments after brackets to delineate the closing of each bracket pair.  This is simply a stylistic request from the repository owner, as she feels it aids greatly in the code's organization:
+  
 Instead of:
 `public class Deck {
 }`
 Do:
+
 `public class Deck{
 }//close Deck class`
