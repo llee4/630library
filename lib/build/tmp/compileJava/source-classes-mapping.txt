@@ -1,9 +1,9 @@
-library/Library.java
- library.Library
 Players.java
  com.github.llee4.Players
 Shuffle.java
  com.github.llee4.Shuffle
+library/Library.java
+ library.Library
 Deck.java
  com.github.llee4.Deck
 Minimax.java
